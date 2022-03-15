@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <div>
         <div className="topnav">
-            <NavLink className="" to=""><h2 id="img-nav">LONG</h2></NavLink>
+            <NavLink className="" to=""><h2 style={{marginTop:"5px"}} id="img-nav">LONG</h2></NavLink>
             <NavLink id="cart" to="/cart"><FaShoppingCart/><span id="quantity">{quantity}</span></NavLink>
         </div>
     </div>
